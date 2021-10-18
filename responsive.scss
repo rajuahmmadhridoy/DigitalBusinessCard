@@ -1,0 +1,128 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Extra small Device. */
+@media (max-width: 768px) {
+  .headerMain {
+    .headerInner {
+      .profileCard {
+        width: 490px;
+        height: 250px;
+        .profileCardImg {
+          width: 170px;
+          height: 170px;
+        }
+      }
+      .contact {
+        .socialContact {
+          width: 80px;
+          height: 80px;
+          div {
+            width: 40px;
+            height: 40px;
+          }
+          p {
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+      }
+      .contactBtn {
+        width: 350px;
+      }
+    }
+  }
+}
+
+/* SM Small Device :550px. */
+@media (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  .headerMain {
+    .headerInner {
+      .profileCard {
+        width: 250px;
+        height: 250px;
+      }
+      .contact {
+        .socialContact {
+          width: 65px;
+          height: 65px;
+          div {
+            width: 35px;
+            height: 35px;
+          }
+          p {
+            font-size: 11px;
+            font-weight: 600;
+          }
+        }
+      }
+      .contactBtn {
+        width: 300px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .redesSocials {
+    height: 330px;
+  }
+  // }
+
+  // @media (max-width: 425px) {
+  .redesSocials {
+    margin-top: 343px;
+    height: 329px;
+  }
+
+  .videoArea {
+    margin-top: 70px;
+  }
+
+  .miExperienciaArea {
+    margin-top: 70px;
+    .miExperienciaInner {
+      padding-top: 67px;
+      p {
+        padding: 0 20px;
+      }
+    }
+  }
+
+  .blografiaArea {
+    margin-top: 70px;
+  }
+
+  .blografiaArea {
+    .blografiaInner {
+      .socialIcons {
+        ul {
+          padding: 0;
+          li {
+            width: 39px;
+            height: 39px;
+          }
+        }
+      }
+      p {
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .redesSocials {
+    height: 410px;
+  }
+}

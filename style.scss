@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+// colors
+$blue: #0078d4;
+$darkBlue: #0e5388;
+$lightBlue: #44b2fc;
+$white: #ffff;
+
+body {
+  background-image: url(./image/bodyBg.png);
+  width: 100%;
+  font-family: Roboto;
+  margin: auto;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: $blue;
+}
+p {
+  font-size: 16px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+// header
+.headerMain {
+  background-image: url(./image/headerBg.png);
+  height: 250px;
+  width: 100%;
+  .headerInner {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 110px;
+    .profileCard {
+      width: 550px;
+      height: 280px;
+      background: #fff;
+      box-shadow: 0 0 10px lightgrey;
+      display: -ms-grid;
+      display: grid;
+      justify-content: center;
+      border-radius: 10px;
+      justify-items: center;
+      .profileCardImg {
+        outline-style: dotted;
+        outline-offset: -21px;
+        border-radius: 50%;
+        outline-color: #0078d4;
+        width: 200px;
+        height: 200px;
+        margin-top: -10px;
+        img {
+          width: 100%;
+        }
+      }
+      h2 {
+        margin-bottom: 0;
+        margin-top: -9px;
+      }
+      p {
+        color: $lightBlue;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+    .contact {
+      display: flex;
+      margin-top: 25px;
+      .socialContact {
+        margin-right: 10px;
+        display: -ms-grid;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border: 1px solid $blue;
+        box-shadow: 0 0 5px $blue;
+        background: $white;
+        border-radius: 10px;
+        div {
+          width: 50px;
+          height: 50px;
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        p {
+          margin-bottom: 0;
+          color: $darkBlue;
+          font-weight: 400;
+        }
+      }
+    }
+    .contactBtn {
+      background: #2471ab;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      width: 440px;
+      height: 50px;
+      margin-top: 25px;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+
+// redesSocials
+.redesSocials {
+  margin-top: 390px;
+  background: $white;
+  height: 250px;
+  box-shadow: 0 0 10px #b7b2b2;
+  .redesSocialsInner {
+    padding: 21px;
+    padding-top: 27px;
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// videoArea
+
+.videoArea {
+  margin-top: 100px;
+  .video {
+    video {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+// miExperienciaArea
+.miExperienciaArea {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  background-image: url(./image/headerBg.png);
+  height: 300px;
+  .miExperienciaInner {
+    padding-top: 110px;
+    h2 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    p {
+      color: #fff;
+      padding: 0 60px;
+    }
+  }
+  .miExperienciaBottom p {
+    padding-right: 100px;
+  }
+}
+
+// map
+.map {
+  background-image: url(./image/map.png);
+  height: 400px;
+  //   margin-top: 100px;
+}
+
+// blografiaArea
+.blografiaArea {
+  background-color: #e9eff0;
+  height: 400px;
+  margin-top: 100px;
+  .blografiaInner {
+    padding-top: 83px;
+
+    h2 {
+      margin-bottom: 40px;
+    }
+    p {
+      color: #000000;
+      padding: 0 30px;
+      margin-bottom: 40px;
+    }
+    .socialIcons {
+      display: grid;
+      justify-content: center;
+      ul {
+        li {
+          list-style: none;
+          float: left;
+          margin-right: 10px;
+          width: 55px;
+          height: 55px;
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// footerArea
+.footerArea {
+  background-color: #191919;
+  .footerInner {
+    padding: 15px;
+  }
+  p {
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 5px;
+  }
+}

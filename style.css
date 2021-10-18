@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  background-image: url(./image/bodyBg.png);
+  width: 100%;
+  font-family: Roboto;
+  margin: auto;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #0078d4;
+}
+
+p {
+  font-size: 16px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+.headerMain {
+  background-image: url(./image/headerBg.png);
+  height: 250px;
+  width: 100%;
+}
+
+.headerMain .headerInner {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  padding-top: 110px;
+}
+
+.headerMain .headerInner .profileCard {
+  width: 550px;
+  height: 280px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px lightgrey;
+          box-shadow: 0 0 10px lightgrey;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  justify-items: center;
+}
+
+.headerMain .headerInner .profileCard .profileCardImg {
+  outline-style: dotted;
+  outline-offset: -21px;
+  border-radius: 50%;
+  outline-color: #0078d4;
+  width: 200px;
+  height: 200px;
+  margin-top: -10px;
+}
+
+.headerMain .headerInner .profileCard .profileCardImg img {
+  width: 100%;
+}
+
+.headerMain .headerInner .profileCard h2 {
+  margin-bottom: 0;
+  margin-top: -9px;
+}
+
+.headerMain .headerInner .profileCard p {
+  color: #44b2fc;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.headerMain .headerInner .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+
+.headerMain .headerInner .contact .socialContact {
+  margin-right: 10px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #0078d4;
+  -webkit-box-shadow: 0 0 5px #0078d4;
+          box-shadow: 0 0 5px #0078d4;
+  background: #ffff;
+  border-radius: 10px;
+}
+
+.headerMain .headerInner .contact .socialContact div {
+  width: 50px;
+  height: 50px;
+}
+
+.headerMain .headerInner .contact .socialContact div a img {
+  width: 100%;
+}
+
+.headerMain .headerInner .contact .socialContact p {
+  margin-bottom: 0;
+  color: #0e5388;
+  font-weight: 400;
+}
+
+.headerMain .headerInner .contactBtn {
+  background: #2471ab;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 440px;
+  height: 50px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+.redesSocials {
+  margin-top: 390px;
+  background: #ffff;
+  height: 250px;
+  -webkit-box-shadow: 0 0 10px #b7b2b2;
+          box-shadow: 0 0 10px #b7b2b2;
+}
+
+.redesSocials .redesSocialsInner {
+  padding: 21px;
+  padding-top: 27px;
+}
+
+.redesSocials .redesSocialsInner h2 {
+  margin-bottom: 20px;
+}
+
+.videoArea {
+  margin-top: 100px;
+}
+
+.videoArea .video video {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.miExperienciaArea {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  background-image: url(./image/headerBg.png);
+  height: 300px;
+}
+
+.miExperienciaArea .miExperienciaInner {
+  padding-top: 110px;
+}
+
+.miExperienciaArea .miExperienciaInner h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.miExperienciaArea .miExperienciaInner p {
+  color: #fff;
+  padding: 0 60px;
+}
+
+.miExperienciaArea .miExperienciaBottom p {
+  padding-right: 100px;
+}
+
+.map {
+  background-image: url(./image/map.png);
+  height: 400px;
+}
+
+.blografiaArea {
+  background-color: #e9eff0;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.blografiaArea .blografiaInner {
+  padding-top: 83px;
+}
+
+.blografiaArea .blografiaInner h2 {
+  margin-bottom: 40px;
+}
+
+.blografiaArea .blografiaInner p {
+  color: #000000;
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+.blografiaArea .blografiaInner .socialIcons {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blografiaArea .blografiaInner .socialIcons ul li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  width: 55px;
+  height: 55px;
+}
+
+.blografiaArea .blografiaInner .socialIcons ul li a img {
+  width: 100%;
+}
+
+.footerArea {
+  background-color: #191919;
+}
+
+.footerArea .footerInner {
+  padding: 15px;
+}
+
+.footerArea p {
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+/*# sourceMappingURL=style.css.map */
