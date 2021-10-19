@@ -181,9 +181,8 @@ p {
   padding-right: 100px;
 }
 
-.map {
-  background-image: url(./image/map.png);
-  height: 400px;
+.map img {
+  width: 100%;
 }
 
 .blografiaArea {

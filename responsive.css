@@ -33,6 +33,9 @@
   .container {
     width: 100%;
   }
+  .headerMain .headerInner {
+    padding-top: 145px;
+  }
   .headerMain .headerInner .profileCard {
     width: 250px;
     height: 250px;
