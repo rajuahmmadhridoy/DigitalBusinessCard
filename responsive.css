@@ -67,13 +67,17 @@
     margin-top: 70px;
   }
   .miExperienciaArea .miExperienciaInner {
-    padding-top: 67px;
+    padding-top: 75px;
   }
   .miExperienciaArea .miExperienciaInner p {
     padding: 0 20px;
   }
   .blografiaArea {
     margin-top: 70px;
+    height: 320px;
+  }
+  .blografiaArea .blografiaInner {
+    padding-top: 42px;
   }
   .blografiaArea .blografiaInner .socialIcons ul {
     padding: 0;
